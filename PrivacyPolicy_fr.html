@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="fr">
 <head>
 <meta charset="utf-8"/>
@@ -11,12 +10,14 @@
   .wrap{max-width:860px;margin:0 auto;padding:24px 20px}
   h1{margin:0 0 6px;font-size:28px}
   .meta{color:#6b7280;margin-bottom:18px}
+  nav.lang{font-size:14px;margin-top:6px}
+  nav.lang a{margin-right:10px;color:#6b7280;text-decoration:none}
+  nav.lang a.active{color:#111;font-weight:600}
   article{background:#fff;border:1px solid #eee;border-radius:14px;padding:24px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
   h2{font-size:18px;margin-top:22px}
   ul{padding-left:20px}
   footer{color:#6b7280;font-size:13px;margin-top:28px}
-  a{color:#e11d48;text-decoration:none} a:hover{text-decoration:underline}
-  .brand{font-weight:700;letter-spacing:.2px}
+  a{color:#e11d48;text-decoration:none}
 </style>
 </head>
 <body>
@@ -24,56 +25,80 @@
 <main class="wrap">
 <article>
 <h1>Politique de confidentialité</h1>
-<div class="meta">Date d’entrée en vigueur: 2 août 2025</div>
-<p>Votre vie privée nous importe. Cette politique explique comment Helvi (« App », « nous ») collecte, utilise et protège vos données personnelles.</p>
+<div class="meta">Date d’effet : 2 août 2025</div>
+
+<nav class="lang">
+  <a href="/privacy/en">EN</a>
+  <a href="/privacy/de">DE</a>
+  <a class="active" href="/privacy/fr">FR</a>
+  <a href="/privacy/it">IT</a>
+</nav>
+
+<p>Votre vie privée est importante pour nous. Cette politique explique comment Helvi (« App », « nous ») collecte, utilise et protège vos informations personnelles.</p>
+
 <h2>1. Données collectées</h2>
 <ul>
-<li>Adresse e-mail et profil lors de l’inscription.</li>
-<li>Données d’usage via Firebase Analytics.</li>
-<li>Journaux de crash &amp; infos appareil via Firebase Crashlytics.</li>
-<li>Consultation, sauvegarde et navigation d’événements (anonyme si non connecté).</li>
-<li>Images via SDWebImageSwiftUI.</li>
+  <li><strong>Compte :</strong> Adresse e-mail et données de profil si vous créez un compte.</li>
+  <li><strong>Utilisation :</strong> Interactions dans l’app via Firebase Analytics.</li>
+  <li><strong>Erreurs :</strong> Journaux de crash et infos appareil via Firebase Crashlytics.</li>
+  <li><strong>Événements :</strong> Consultation, sauvegarde et navigation (anonyme si non connecté).</li>
+  <li><strong>Localisation (optionnelle) :</strong> Avec votre autorisation, nous utilisons votre position précise pour trier les événements proches. Non liée à votre identité et non utilisée pour le suivi publicitaire.</li>
+  <li><strong>Médias :</strong> Images chargées avec SDWebImageSwiftUI (aucune donnée personnelle).</li>
 </ul>
-<h2>2. Utilisation des données</h2>
+
+<h2>2. Utilisation</h2>
 <ul>
-<li>Fournir, personnaliser et améliorer.</li>
-<li>Répondre aux demandes de support.</li>
-<li>Diagnostiquer et corriger les problèmes.</li>
+  <li>Fournir, personnaliser et améliorer l’App.</li>
+  <li>Communiquer avec vous (compte, assistance).</li>
+  <li>Diagnostiquer et corriger les problèmes.</li>
 </ul>
+
 <h2>3. Services tiers</h2>
 <ul>
-<li>Firebase Auth: gestion de compte (Google LLC).</li>
-<li>Firebase Analytics: analyse d’utilisation.</li>
-<li>Firebase Crashlytics: rapports de crash.</li>
-<li>SDWebImageSwiftUI: affichage images, pas de collecte.</li>
+  <li>Firebase Auth : gestion des comptes.</li>
+  <li>Firebase Analytics : analyse d’utilisation.</li>
+  <li>Firebase Crashlytics : rapports d’erreurs.</li>
+  <li>SDWebImageSwiftUI : affichage d’images.</li>
 </ul>
+
 <h2>4. Partage &amp; sécurité</h2>
 <ul>
-<li>Pas de vente/partage publicitaire.</li>
-<li>Google (Firebase) agit comme sous-traitant.</li>
-<li>Mesures de sécurité standard appliquées.</li>
+  <li>Aucune vente ou partage à des fins publicitaires.</li>
+  <li>Google (Firebase) agit en tant que sous-traitant.</li>
+  <li>Sécurité conforme aux normes de l’industrie.</li>
 </ul>
+
 <h2>5. Conservation &amp; suppression</h2>
 <ul>
-<li>Données conservées tant que nécessaire ou requis par la loi.</li>
-<li>Suppression possible; données anonymisées peuvent rester.</li>
+  <li>Données conservées tant que vous utilisez l’App ou exigées par la loi.</li>
+  <li>Suppression possible à tout moment ; données anonymisées peuvent rester.</li>
 </ul>
+
 <h2>6. Enfants</h2>
 <ul>
-<li>Comptes uniquement 16+ (UE/CH) ou 13+ ailleurs.</li>
-<li>Pas de collecte sans consentement parental.</li>
+  <li>Helvi est classée 4+ sur l’App Store.</li>
+  <li>Les comptes sont destinés aux adultes (parents/tuteurs).</li>
+  <li>Nous ne collectons pas sciemment de données d’enfants.</li>
 </ul>
+
 <h2>7. Vos droits</h2>
 <ul>
-<li>Accès, correction, suppression, portabilité, opposition.</li>
-<li>Retrait du consentement possible à tout moment.</li>
+  <li>Accès, rectification, suppression, portabilité.</li>
+  <li>Retrait du consentement via suppression du compte.</li>
 </ul>
-<h2>8. Modifications</h2>
-<p>Politique mise à jour à l’occasion. Changements annoncés dans l’App.</p>
+
+<h2>8. Changements</h2>
+<p>Nous pouvons mettre à jour cette politique de temps en temps.</p>
+
 <h2>9. Contact</h2>
-<p>Support Helvi<br/>Lucerne, Suisse<br/><a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a></p>
+<p>
+Helvi Support<br/>
+Lucerne, Suisse<br/>
+<a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a><br/>
+<a href="/terms/fr">Conditions générales</a>
+</p>
 </article>
-<footer>© Helvi. All rights reserved.</footer>
+<footer>© Helvi. Tous droits réservés.</footer>
 </main>
 </body>
 </html>
