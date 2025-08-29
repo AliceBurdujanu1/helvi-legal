@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -11,6 +10,9 @@
   .wrap{max-width:860px;margin:0 auto;padding:24px 20px}
   h1{margin:0 0 6px;font-size:28px}
   .meta{color:#6b7280;margin-bottom:18px}
+  nav.lang{font-size:14px;margin-top:6px}
+  nav.lang a{margin-right:10px;color:#6b7280;text-decoration:none}
+  nav.lang a.active{color:#111;font-weight:600}
   article{background:#fff;border:1px solid #eee;border-radius:14px;padding:24px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
   h2{font-size:18px;margin-top:22px}
   ul{padding-left:20px}
@@ -25,56 +27,93 @@
 <article>
 <h1>Terms and Conditions</h1>
 <div class="meta">Effective Date: 2 August 2025</div>
+
+<nav class="lang" aria-label="Languages">
+  <!-- Adjust hrefs to your live routes, e.g. /terms/en, /terms/de, ... -->
+  <a class="active" href="/terms/en">EN</a>
+  <a href="/terms/de">DE</a>
+  <a href="/terms/fr">FR</a>
+  <a href="/terms/it">IT</a>
+</nav>
+
 <p>Welcome to Helvi (“App”, “we”, “us”, or “our”). These Terms and Conditions (“Terms”) govern your use of the Helvi mobile application and its services.</p>
 <p>By using Helvi, you agree to these Terms. If you do not agree, please do not use the App.</p>
+
 <h2>1. Use of the App</h2>
 <ul>
-<li>Content is rated 4+ on the App Store. Account creation is for adults (parents/guardians) or users 16+ in the EU/CH (13+ elsewhere). Children may use the App under adult supervision without creating an account.</li>
-<li>You agree to use Helvi only for lawful purposes and in accordance with these Terms.</li>
+  <li>Content is rated 4+ on the App Store. Account creation is for adults (parents/guardians) or users 16+ in the EU/CH (13+ elsewhere). Children may use the App under adult supervision without creating an account.</li>
+  <li>You agree to use Helvi only for lawful purposes and in accordance with these Terms.</li>
 </ul>
+
 <h2>2. Account Registration</h2>
 <ul>
-<li>Some features may require you to register an account using your email address.</li>
-<li>You are responsible for keeping your login credentials secure.</li>
-<li>You are responsible for all activity carried out under your account.</li>
+  <li>Some features may require you to register an account using your email address.</li>
+  <li>You are responsible for keeping your login credentials secure.</li>
+  <li>You are responsible for all activity carried out under your account.</li>
 </ul>
-<h2>3. Event Information</h2>
+
+<h2>3. Event Information & External Links</h2>
 <ul>
-<li>Helvi provides information about events for families and children.</li>
-<li>While we strive for accuracy, we do not guarantee the completeness or reliability of event details, availability, or descriptions.</li>
-<li>Helvi is not responsible for any third-party events, services, or cancellations.</li>
+  <li>Helvi provides information about events for families and children.</li>
+  <li>While we strive for accuracy, we do not guarantee the completeness, availability, or reliability of event details, prices, or descriptions.</li>
+  <li>Helvi is not responsible for third-party events, services, cancellations, or any content on external websites linked from the App (e.g., ticketing or official event sites).</li>
 </ul>
-<h2>4. Content and Conduct</h2>
+
+<h2>4. Location Services</h2>
 <ul>
-<li>You may not misuse Helvi or submit content that is illegal, harmful, offensive, or inappropriate.</li>
-<li>We reserve the right to suspend or terminate your access if you violate these Terms.</li>
+  <li>If you enable location access, Helvi may use your device’s precise location to sort and display nearby events.</li>
+  <li>Location is used only for App functionality and is not shared for advertising or tracking. You can disable location access in your device settings at any time.</li>
 </ul>
-<h2>5. Privacy</h2>
-<p>Your privacy is important to us. Please refer to our Privacy Policy to understand how we handle your personal data.</p>
-<h2>6. External Services</h2>
+
+<h2>5. Notifications & Calendar</h2>
 <ul>
-<li>Helvi integrates with third-party services, including Firebase (authentication, analytics, crash reporting) and SDWebImageSwiftUI (image display).</li>
-<li>See our Privacy Policy for further details.</li>
+  <li>You may optionally add events to your personal calendar or enable reminders via notifications. These features are user-initiated and require your permission.</li>
+  <li>You can disable notifications in your device settings at any time.</li>
 </ul>
-<h2>7. Intellectual Property</h2>
+
+<h2>6. Content and Conduct</h2>
 <ul>
-<li>All content, trademarks, and software within the App are the property of Helvi or its licensors.</li>
-<li>You may not copy, modify, distribute, or reverse-engineer any part of the App without our permission.</li>
+  <li>You may not misuse Helvi or submit content that is illegal, harmful, offensive, or inappropriate.</li>
+  <li>We reserve the right to suspend or terminate your access if you violate these Terms.</li>
 </ul>
-<h2>8. Limitation of Liability</h2>
+
+<h2>7. Privacy</h2>
+<p>Your privacy is important to us. Please refer to our <a href="/privacy/en">Privacy Policy</a> to understand how we handle your personal data.</p>
+
+<h2>8. External Services</h2>
 <ul>
-<li>Helvi is provided “as is” without warranties of any kind.</li>
-<li>To the fullest extent permitted by law, we disclaim liability for any damages arising from your use of the App or reliance on its information.</li>
+  <li>Helvi integrates with third-party services, including Firebase (authentication, analytics, crash reporting) and SDWebImageSwiftUI (image display).</li>
+  <li>See our Privacy Policy for further details.</li>
 </ul>
-<h2>9. Changes to Terms</h2>
+
+<h2>9. Intellectual Property</h2>
+<ul>
+  <li>All content, trademarks, and software within the App are the property of Helvi or its licensors.</li>
+  <li>You may not copy, modify, distribute, or reverse-engineer any part of the App without our permission.</li>
+</ul>
+
+<h2>10. Limitation of Liability</h2>
+<ul>
+  <li>Helvi is provided “as is” without warranties of any kind.</li>
+  <li>To the fullest extent permitted by law, we disclaim liability for any damages arising from your use of the App or reliance on its information.</li>
+</ul>
+
+<h2>11. Changes to Terms</h2>
 <p>We may update these Terms from time to time. Continued use of the App after updates means you accept the revised Terms.</p>
-<h2>10. Governing Law</h2>
+
+<h2>12. Governing Law</h2>
 <ul>
-<li>These Terms are governed by the laws of Switzerland.</li>
-<li>Any disputes shall be subject to the exclusive jurisdiction of the courts of Switzerland.</li>
+  <li>These Terms are governed by the laws of Switzerland.</li>
+  <li>Any disputes shall be subject to the exclusive jurisdiction of the courts of Switzerland.</li>
 </ul>
-<h2>11. Contact Us</h2>
-<p>Helvi Support<br/>Luzern, Switzerland<br/><a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a></p>
+
+<h2>13. Contact Us</h2>
+<p>
+Helvi Support<br/>
+Luzern, Switzerland<br/>
+<a href="mailto:alice.turcanu91@gmail.com">alice.turcanu91@gmail.com</a><br/>
+<a href="/privacy/en">Privacy Policy</a>
+</p>
 </article>
 <footer>© Helvi. All rights reserved.</footer>
 </main>
